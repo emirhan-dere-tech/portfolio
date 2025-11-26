@@ -1,10 +1,9 @@
 import React, { useRef } from "react";
-import emailjs from "emailjs-com";
 import "./contact.css";
 
 const Contact = () => {
   const form = useRef();
-  
+
   return (
     <section className="contact section" id="contact">
       <h2 className="section__title">Get in Touch...</h2>
