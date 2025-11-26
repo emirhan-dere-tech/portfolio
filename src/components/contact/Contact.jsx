@@ -10,10 +10,7 @@ const Contact = () => {
 
     emailjs
     .sendForm(
-      "service_mvi4y0f",
-      "template_vktv775",
-      form.current,
-      "_V45EsPI3AaSOMuhj"
+      
     )
     e.target.reset();
   };
@@ -33,11 +30,11 @@ const Contact = () => {
 
               <h3 className="contact__card-title">Email</h3>
               <span className="contact__card-data">
-                emirhan.dere.tech@gmail.com
+                emirhandere333@gmail.com
               </span>
 
               <a
-                href="https://mail.google.com/mail/?view=cm&fs=1&to=emirhan.dere.tech@gmail.com"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=emirhandere333@gmail.com"
                 target="_blank"
                 className="contact__button"
                 rel="noreferrer"
@@ -52,14 +49,6 @@ const Contact = () => {
 
               <h3 className="contact__card-title">Linkedin</h3>
               <span className="contact__card-data">Emirhan Dere</span>
-
-              <a
-                href="https://www.linkedin.com/in/emirhan-dere-755886206/"
-                className="contact__button"
-              >
-                Follow me here!!
-                <i className="bx bx-right-arrow-alt contact__button-icon"></i>
-              </a>
             </div>
           </div>
         </div>
